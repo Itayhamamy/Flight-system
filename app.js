@@ -7,7 +7,7 @@ const logger = (req, res, next) => {
     
 }
 
-app.get('/1', logger,(req, res)=> {
+app.get('/', logger,(req, res)=> {
     res.send('ok')
 })
 
