@@ -2,8 +2,9 @@ const express = require('express');
 const app = express();
 
 const logger = (req, res, next) => {
-    const date = new date().tolocaleString();
-    console.log(date)
+    const date = new Date().toLocaleDateString();
+     console.log(date);
+    next();
     
 }
 
